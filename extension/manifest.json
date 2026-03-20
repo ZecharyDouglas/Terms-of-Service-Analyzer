@@ -1,0 +1,9 @@
+{
+  "name": "Terms Of Service Analyzer",
+  "description": "Extension to analyze web page content leveraging Amazon Bedrock APIs",
+  "version": "1.0",
+  "action": {
+    "default_icon": "extension/TOSLogo.png",
+    "default_popup": "TOS.html"
+  }
+}
