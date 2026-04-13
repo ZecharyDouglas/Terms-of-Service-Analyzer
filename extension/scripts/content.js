@@ -1,5 +1,12 @@
 console.log("Script Loaded");
-
+/** MVP**/
+// check if there exists a document element that houses a contract
+// if there is clip it and send it to AWS for backend processing
+// the AI returns a description
+// a badge/modal gets created and inserted at the side of the page
+/** TO ADD LATER**/
+//highlight the DOM node elements to show malicious text
+//clickable highlights that display modals explaining specific details and implications
 function renderReadingTime(article) {
   // If we weren't provided an article, we don't need to render anything.
   if (!article) {
