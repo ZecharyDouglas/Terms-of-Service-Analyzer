@@ -1,6 +1,7 @@
 console.log("Script Loaded");
 /** MVP**/
 // check if there exists a document element that houses a contract
+// or perhaps the parent element of a Select or Accept / Accept Terms etc button
 // if there is clip it and send it to AWS for backend processing
 // the AI returns a description
 // a badge/modal gets created and inserted at the side of the page
@@ -33,6 +34,7 @@ function renderReadingTime(article) {
 }
 
 renderReadingTime(document.querySelector("article"));
+
 const observer = new MutationObserver((mutations) => {
   for (const mutation of mutations) {
     // If a new article was added.
