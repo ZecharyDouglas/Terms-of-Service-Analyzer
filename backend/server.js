@@ -3,6 +3,7 @@ const express = require("express");
 const OpenAI = require("openai");
 const app = express();
 port = 3000;
+//pass parameters to the function
 const client = OpenAI();
 
 app.get("/", (req, res) => {
