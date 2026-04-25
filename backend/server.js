@@ -26,7 +26,7 @@ app.get("/getresponse", async (req, res) => {
       },
     ],
   });
-
+  //
   const message = response?.output_text;
   return res.json({
     message: message,
